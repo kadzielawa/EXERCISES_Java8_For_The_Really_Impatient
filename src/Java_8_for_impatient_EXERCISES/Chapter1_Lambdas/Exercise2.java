@@ -12,10 +12,6 @@ import java.util.Scanner;
  */
 public class Exercise2 {
 
-    public interface FileFilter extends java.io.FileFilter {
-
-    }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Pass the path to scanning directory");
