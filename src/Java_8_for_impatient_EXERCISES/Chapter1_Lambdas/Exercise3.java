@@ -1,10 +1,14 @@
 package Java_8_for_impatient_EXERCISES.Chapter1_Lambdas;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 import java.util.Scanner;
+
+/**
+ * Using the list(FilenameFilter) method of the java.io.File class, write a method
+ that returns all files in a given directory with a given extension. Use a lambda
+ expression, not a FilenameFilter . Which variables from the enclosing scope does
+ it capture?
+ */
 
 public class Exercise3 {
 
