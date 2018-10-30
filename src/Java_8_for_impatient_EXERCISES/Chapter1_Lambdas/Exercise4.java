@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 
 public class Exercise4 {
-
+ 
     public void sortByLamda(String path) {
         File files = new File(path);
         File[] myFiles = files.listFiles();
